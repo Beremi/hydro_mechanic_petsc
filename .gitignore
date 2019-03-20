@@ -4,3 +4,10 @@
 hdiv
 
 ~.o
+src/create_index\.o
+
+src/generate_parameters\.o
+
+src/main\.o
+
+src/matrix_constructions\.o
