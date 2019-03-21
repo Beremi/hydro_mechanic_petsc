@@ -11,3 +11,17 @@ src/generate_parameters\.o
 src/main\.o
 
 src/matrix_constructions\.o
+
+src_py/matrix-A\.dat
+
+src_py/matrix-A\.dat\.info
+
+src_py/vector-x\.dat
+
+src_py/vector-x\.dat\.info
+
+src_py/vector-y\.dat
+
+src_py/vector-y\.dat\.info
+
+src/\.Rhistory
