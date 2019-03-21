@@ -1,6 +1,6 @@
 # -*- makefile -*-
 
-MPIEXEC=
+MPIEXEC=mpirun
 PYTHON=python
 
 .PHONY:test
@@ -8,7 +8,7 @@ test: run clean
 
 .PHONY:run
 run:
-	${MPIEXEC} ${PYTHON} petsc_hdf5_save.py
+	${MPIEXEC} -n 2 ${PYTHON} petsc_hdf5_save.py
 
 .PHONY:clean
 clean:
