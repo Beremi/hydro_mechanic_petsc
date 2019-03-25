@@ -25,3 +25,9 @@ src_py/vector-y\.dat
 src_py/vector-y\.dat\.info
 
 src/\.Rhistory
+
+src_py/rect_mesh\.mat
+
+*.mat
+
+*.png
